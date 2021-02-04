@@ -154,5 +154,7 @@ def plot_cell(show=True, save=False):
     if show:
         fig.show()
 
+    return fig, ax
+
 if __name__ == '__main__':
-    plot_cell(show=True, save=True)
+    plot_cell(show=True, save=False)
